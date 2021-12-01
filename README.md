@@ -5,11 +5,11 @@ Example usage:
 
 ***main.tf***
 ```go
-module "group-web" {
+module "instances" {
   source = "git@github.com:dihogoteixeira/tf-gcp-modules.git?ref=v1.0"
 
   amount = 3
-  name   = "linux-web"
+  name   = "web-app"
   image  = "centos-cloud/centos-8"
 }
 ```
