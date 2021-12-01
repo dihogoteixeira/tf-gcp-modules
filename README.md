@@ -29,10 +29,10 @@ output "cpu_platform" {
 }
 
 output "external_ip" {
-    value = module.instances.external_ip
+  value = module.instances.external_ip
 }
 
 output "internal_ip" {
-    value = module.instances.internal_ip
+  value = module.instances.internal_ip
 }
 ```
