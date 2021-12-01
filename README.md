@@ -14,7 +14,7 @@ module "group-web" {
 }
 ```
 
-outputs.tf
+***outputs.tf***
 ```go
 output "name" {
   value = module.instances.name
