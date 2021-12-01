@@ -1,7 +1,7 @@
 # Instanciando módulos
 module "instances" {
   source = "./modules/gcp-instances"
- 
+
   amount = 2
   name   = "linux-vm-1"
 }
